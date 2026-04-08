@@ -57,11 +57,11 @@ export default function Sidebar({ active }: { active?: string }) {
               className={cn(
                 "flex items-center gap-3 px-4 py-4 text-sm transition-all duration-200 rounded-xl group",
                 isActive
-                  ? "bg-[#38B6FF] text-white font-semibold shadow-lg shadow-[#38B6FF]/20"
-                  : "text-blue-100/70 hover:bg-white/10 hover:text-white"
+                  ? "bg-[#38B6FF] text-white font-semibold  shadow-[#38B6FF]/20"
+                  : "text-blue-100/90 hover:bg-white/10 hover:text-white"
               )}
             >
-              <item.Icon className={cn("h-5 w-5 transition-colors", isActive ? "text-white" : "text-blue-200/50 group-hover:text-white")} />
+              <item.Icon className={cn("h-5 w-5 transition-colors", isActive ? "text-white" : "text-blue-200/90 group-hover:text-white")} />
               <span>{item.label}</span>
             </Link>
           );
