@@ -28,7 +28,6 @@ const items: Array<{
     { href: "/users", label: "Users & Leads", Icon: Users },
     { href: "/tools-management", label: "Tools Management", Icon: Wrench },
     { href: "/legal-management", label: "Legal Management", Icon: Scale },
-    { href: "/settings", label: "Settings", Icon: Settings },
   ];
 
 export default function Sidebar({ active }: { active?: string }) {
