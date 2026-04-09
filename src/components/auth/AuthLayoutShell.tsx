@@ -32,7 +32,7 @@ export default function AuthLayoutShell({
             Advancing Patient Care Through Precision Data
           </h1>
           <p className="text-lg text-blue-50/80 leading-relaxed font-medium">
-            Join thousands of specialized healthcare professionals using 4sightRX
+            Join thousands of specialized healthcare professionals using 4HospiceRx
             to streamline clinical decision-making and improve patient outcomes.
           </p>
         </div>
@@ -45,7 +45,7 @@ export default function AuthLayoutShell({
           <div className="mb-12">
             <Image
               src="/logo2.png"
-              alt="4sightRX Logo"
+              alt="4HospiceRx Logo"
               width={240}
               height={60}
               className="object-contain"

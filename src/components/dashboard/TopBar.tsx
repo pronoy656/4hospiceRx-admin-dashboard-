@@ -23,7 +23,7 @@ export default function TopBar() {
             <button className="flex items-center gap-3 text-right hover:bg-slate-50 p-1.5 rounded-lg transition-colors outline-none cursor-pointer">
               <div>
                 <div className="text-sm font-semibold text-slate-700">Super Admin</div>
-                <div className="text-[10px] text-slate-400">admin@4sightrx.com</div>
+                <div className="text-[10px] text-slate-400">admin@4hospicerx.com</div>
               </div>
               <div className="h-8 w-8 rounded-full bg-[#00A3A3] flex items-center justify-center text-white text-xs font-bold shadow-sm">
                 SA
